@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="remindArray" >
+        <item>从不</item>
+        <item>一天前</item>
+        <item>三天前</item>
+        <item>七天前</item>
+    </string-array>
+    <string-array name="tagArray" >
+        <item>私人</item>
+        <item>公司</item>
+        <item>家庭</item>
+        <item>朋友</item>
+    </string-array>
+</resources>
