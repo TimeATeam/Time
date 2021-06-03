@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.example.time.TitleLayout
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </com.example.time.TitleLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/menu_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/background_light"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/page_Fragment1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/green1"
+            android:text="Fragment1"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/page_Fragment2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/oliveLight"
+            android:text="Fragment2"
+            android:textSize="18dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/page_Fragment3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/oliveLight"
+            android:text="Fragment3"
+            android:textSize="18dp"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="486dp"
+        android:layout_above="@id/menu_bottom"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+    </FrameLayout>
+
+
+</RelativeLayout>

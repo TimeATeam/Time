@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TIME</string>
+    <string name="gonggao">重要信息传达不到位？试试用公告</string>
+    <string name="btn_0">更多</string>
+</resources>
