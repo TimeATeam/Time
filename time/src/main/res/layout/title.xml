@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_light_background"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/title_1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="设置"
+        android:textSize="12sp"
+        android:background="@drawable/btn_box">
+    </Button>
+
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@color/cardview_light_background"
+        android:gravity="center"
+        android:text="时间线"
+        android:textColor="@color/black"
+        android:textSize="24sp">
+    </TextView>
+
+    <Button
+        android:id="@+id/title_2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_box"
+        android:text="添加"
+        android:textSize="12sp">
+    </Button>
+</RelativeLayout>
